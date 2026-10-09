@@ -1,0 +1,14 @@
+name: prashant2979
+
+on:
+   push:
+      branches: [main]
+job:
+ demo:
+   run-on: ubuntu-latest
+
+   steps:
+   name:greeting:
+   run:echo"hello dosto"
+   
+  
